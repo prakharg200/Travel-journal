@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    color: white;   
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.earth-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.card-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 70px;
+    gap: 100px;
+}
+
+.card{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-image{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.card-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.1em;
+}
+
+.card-content-head{
+    display: flex;
+}
+
+a{
+    color: #918E9B;
+}
+
+.card-country{
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+.card-date{
+    margin: 0;
+}
